@@ -1,0 +1,36 @@
+a {
+    color: #000;
+}
+
+a:hover, a:active, a:focus {
+    outline: none;
+    text-decoration: none;
+    color: #00a65a;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #00a65a;
+    border-color: #00a65a;
+}
+
+.notification-item[data-key="Autorizada"] .icon:before {
+    content: "\e013";
+    color: #00a65a;
+}
+
+.notification-item[data-key="Rechazada"] .icon:before {
+    content: "\e209";
+    color: #e98400;
+}
+.notification-item[data-key="Recibida"] .icon:before {
+    content: "\e025";
+    color: #00a65a;
+}
+.notification-item[data-key="Recibir"] .icon:before {
+    content: "\e166";
+    color: #248292;
+}
+.notification-item[data-key="Enviada"] .icon:before {
+    content: "\e028";
+    color: #248292;
+}

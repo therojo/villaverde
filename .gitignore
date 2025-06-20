@@ -1,0 +1,11 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+.idea
+*.iml
+*.orig
+*.mwb.bak
+dev/villaverde/vendor
+dev/villaverde/runtime
+dev/villaverde/web/assets
+.DS_Store
+composer.lock
+

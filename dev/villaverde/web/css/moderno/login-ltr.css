@@ -1,0 +1,118 @@
+a {
+    color: #fff;
+}
+
+a:hover, a:active, a:focus {
+    outline: none;
+    /*text-decoration: none;*/
+    text-decoration: underline;
+    /*color: #00a65a; /*#D73925;*/
+    color: #fff;
+}
+
+
+.login-page-ltr {
+/*
+    background: url("../../images/historia.jpg") no-repeat fixed top left;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  */
+}
+
+img#background_image {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+
+.login-wrapper-ltr {
+    /* background: url("../../images/portada_1468x980.jpg") no-repeat fixed top left; */
+    background: url("../../images/DSC0064_original.jpg") no-repeat fixed top left;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+
+    position: fixed;
+    left: 0px; /* ltr */
+    top: 0;
+    overflow: hidden;
+    z-index: 0;
+    opacity: 1;
+    width: 85%;
+    height: 100%;
+
+    transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    transition-property: opacity;
+    transition-duration: 1s;
+}
+
+
+
+.login-box-ltr {
+    /*background: #FFFFFF;*/
+
+    background: #FFFFFF url("../../images/pt_squares_lg.png") repeat fixed center center;
+    border-left: 1px solid #d2d6de; /* #ff3547; */
+    position: fixed;
+    padding: 45px;
+    right: 0px;
+    float: right;
+    height: 100%;
+    width: 480px;
+    margin: 0px;
+    z-index: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+
+}
+
+
+.login-box-body-ltr {
+    /*background: #fff;*/
+    /*padding: 45px;*/
+    border-top: 0;
+    color: #666;
+    margin: 0 60px 25px 0;
+}
+
+.login-title-ltr {
+    font-size: 35px;
+    /*text-align: center;*/
+    margin-bottom: 25px;
+    font-weight: 300;
+}
+
+.login-logo-ltr {
+    /*text-align: center;*/
+    margin-bottom: 25px;
+}
+
+.login-box-msg-ltr {
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+.login-box-footer-ltr {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: visible;
+    z-index: 99;
+    clear: both;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 15px;
+    border-top: 1px solid #ff3547; /*#ff3547; #d2d6de */
+    font-weight: 700;
+}
+
