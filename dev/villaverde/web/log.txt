@@ -1,1 +1,801 @@
-123456789101112123456789101112123456789101112123456789101112123456789101112123456789101112
+Array
+(
+    [results] => Array
+        (
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [listaCasas] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => Amarantos
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [listaCasas] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => Amarantos
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [listaCasas] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => Amarantos 225
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [listaCasas] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => Amarantos 225
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [listaCasas] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 4
+                                    [direcion] => Amarantos 225
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [listaCasas] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 4
+                                    [direcion] => Amarantos 225
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [listaCasas] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 4
+                                    [direcion] => Amarantos 225
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [listaCasas] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 4
+                                    [direcion] => Amarantos 225
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [listaCasas] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 4
+                                    [direcion] => Amarantos 225
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [listaCasas] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 4
+                                    [direcion] => Amarantos 225
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [listaCasas] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 1
+                                    [direcion] => Amarantos 217
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [listaCasas] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 1
+                                    [direcion] => Amarantos 217
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [listaCasas] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 1
+                                    [direcion] => Amarantos 217
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [listaCasas] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 4
+                                    [direcion] => Amarantos 225
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [listaCasas] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 4
+                                    [direcion] => Amarantos 225
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [listaCasas] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 1
+                                    [direcion] => Amarantos 217
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [listaCasas] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 1
+                                    [direcion] => Amarantos 217
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [listaCasas] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 1
+                                    [direcion] => Amarantos 217
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [listaCasas] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 4
+                                    [direcion] => Amarantos 225
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [listaCasas] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 4
+                                    [direcion] => Amarantos 225
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [listaCasas] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 1
+                                    [direcion] => Amarantos 217
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [listaCasas] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 1
+                                    [direcion] => Amarantos 217
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [listaCasas] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 1
+                                    [direcion] => Amarantos 217
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [listaCasas] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 1
+                                    [direcion] => Amarantos 217
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [listaCasas] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 1
+                                    [direcion] => Amarantos 217
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [listaCasas] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 1
+                                    [direcion] => Amarantos 217
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [listaCasas] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 4
+                                    [direcion] => Amarantos 225
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [listaCasas] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 4
+                                    [direcion] => Amarantos 225
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [data] => <option value='0'>-</option><option value='1'>Amarantos 217</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [data] => <option value='0'>-</option><option value='1'>Amarantos 217</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [data] => <option value='0'>-</option><option value='1'>Amarantos 217</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 4
+                    [text] => Don Rodo Garcia Renteria
+                    [data] => <option value='0'>-</option><option value='3'>Tule 1</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 4
+                    [text] => Don Rodo Garcia Renteria
+                    [data] => <option value='0'>-</option><option value='2'>Jarales 105</option><option value='3'>Tule 1</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option>
+                )
+
+        )
+
+)

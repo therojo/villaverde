@@ -28,47 +28,61 @@ use yii\helpers\Url;
         <div class="row">   
            <div class="col-md-6">
                <div class="form-group">
-                     <label class="control-label" for="pagos-idColono">Colono</label>
-                     <?= $form->field($model, 'idColono')->widget( Select2::classname(), [
-                        'data'=>[],
-                        //'language' => 'es',
-                        //'initValueText' => $colono ? $colono->nombre : "",
-                        // $producto, // set the initial display text
-                        // 'disabled' => $estatusDisabled,
-                        'pluginOptions' => [
-                            'placeholder' => 'Buscar colono',
-                            'onchange' => 'populateCliente(this.value)'
-                        ],
-                        'pluginEvents' => [
-                                'change' => 'function() {$.post("' . Yii::$app->urlManager->createUrl('inmuebles-colonos/lista-ajax?idColono=') . '"+$(this).val(),
-                                function(data) {
-                                    $("select#chips-idinmueblecolono").html(data);
-                                }
-                            ); }'
-                        ],
-                            /*'pluginOptions' => [
-                                'allowClear' => true,
-                                'minimumInputLength' => 3,
-                                'language' => [
-                                    'errorLoading' => new JsExpression("function () { return 'Esperando resultados...'; }"),
+                  <label class="control-label" for="chips-idColono">Buscar Colono</label>
+                        <?php echo $form->field($model, 'idColono')->widget(
+                            Select2::classname(),
+                            [
+                                //'language' => 'es',
+                                'initValueText' => "", // isset($model->id) ? $model->idContribuyente0->razonSocial : "",  // set the initial display text
+                                // 'disabled' => $estatusDisabled,
+                                'id' => 'lista-colono',
+                                // 'data' => (!$modelPersona->isNewRecord)  ? [$modelPersona->id => $modelPersona->curp]: [],
+                                'options' => [
+                                    'placeholder' => 'Buscar Colono',
+                                    // 'onchange' => 'mostrarBeneficiarios(this,"'.$urlAjax.'","'.$token.'")'
                                 ],
-                                'ajax' => [
-                                    'url' => Url::to(['colonos/listar']),
-                                    'dataType' => 'json',
-                                    'data' => new JsExpression('function(params) { return {q:params.term}; }')
 
+                                'pluginOptions' => [
+                                    'allowClear' => true,
+                                    'minimumInputLength' => 4,
+                                    'language' => [
+                                        'errorLoading' => new JsExpression("function () { return 'Esperando resultados...'; }"),
+                                    ],
+                                    'ajax' => [
+                                        'url' => Url::to(['colonos/listar']),
+                                        'dataType' => 'json',
+                                        'data' => new JsExpression('function(params) {return {q:params.term}; }')
+
+                                    ],
+                                    'escapeMarkup' => new JsExpression('function (markup) { return markup; }'),
+                                    'templateResult' => new JsExpression('function(registro) { return registro.text; }'),
+                                    'templateSelection' => new JsExpression(
+                                        'function (registro)
+                                        { 
+                                            if(registro.text === undefined){
+                                                return "";
+                                            } else {
+                                                // document.getElementById("contribuyentes-rfc").value="";
+                                                
+                                                $("select#chips-idinmueblecolono").html(registro.data);
+
+                                                return registro.text;                                                     
+                                            }
+                                        }'
+                                    ),
                                 ],
-                                'escapeMarkup' => new JsExpression('function (markup) { return markup; }'),
-                                'templateResult' => new JsExpression('function(nombre) { return nombre.text; }'),
-                                'templateSelection' => new JsExpression('function (nombre) { return nombre.text; }'),
-                            ],*/
-
-                        ]
-                    )->label(false);
-                    ?>
+                            ]
+                        )->label(false);
+                        ?>
+                    </div>
                 </div>
-            </div>
-        </div> <!-- /.row -->
+
+                </div>
+
+
+               </div>
+           </div>
+        </div>
 
          <div class="row">
             <div class="col-md-6">

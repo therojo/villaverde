@@ -132,6 +132,9 @@ class ColonosController extends Controller
 
         if (!is_null($q)) {
             $select = "id, nombre, apellido1, apellido2, telefono ";
+            
+            //TODO: Validar si hay que ocultar los inactivos
+
             $query = Colonos::find()->select($select)->where(
                 [
                     'estatus' => Colonos::_ACTIVO
@@ -149,13 +152,31 @@ class ColonosController extends Controller
             if ($result) {
                 //Se concatena el data que se retornará
                 foreach ($result as $v) {
+                    
+                    $inmuebles = (new InmueblesColonos())->find()->where([
+                        'idColono' => $v->id
+                    ])->all();
+
+                    $listaCasas=[];
+
+                    $casas="";
+                    $casas = "<option value='0'>-</option>";
+
+                    foreach($inmuebles as $id => $inmuebleColono) {
+                        $direccion = $inmuebleColono->idInmueble0->idCalle0->nombre. ' '.$inmuebleColono->idInmueble0->numero;
+
+                        $casas.= "<option value='" . $inmuebleColono->id . "'>" . $direccion . "</option>";
+                    }
+                    
                     $data[] = array(
                         'id' => $v->id,
-                        'text' => $v->nombre . " " . $v->apellido1
+                        'text' => $v->nombre . " " . $v->apellido1. " ".$v->apellido2,
+                        'data' => $casas
                     );
                 }
-                
+
                 $out['results'] = array_values($data);
+
             } else {//Si no se encuentran resultados se devuelve un array vacío
                 $out['results'] = [];
             }
@@ -165,6 +186,10 @@ class ColonosController extends Controller
         } elseif ($id > 0) {
             $out['results'] = ['id' => $id, 'text' => Colonos::find($id)->nombre()];
         }
+        
+        $fp=fopen("log.txt", "a+");
+        fwrite($fp, print_r($out, true));
+        fclose($fp);
 
         return $out;
     }

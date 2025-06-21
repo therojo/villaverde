@@ -43,11 +43,12 @@ class Chips extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['numero', 'idAuto', 'idInmuebleColono'], 'required'],
+            [['numero', 'idInmuebleColono'], 'required'],
             [['estatus'], 'string'],
             [['createdAt'], 'safe'],
             [['numero'], 'string', 'max' => 10],
             [['observaciones'], 'string', 'max' => 100],
+            [['numero'], 'unique', 'message'=>'Este número de chip ya fue registrado'],
             [
                 ['idInmuebleColono'],
                 'exist',
