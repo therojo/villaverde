@@ -74,6 +74,7 @@ class InmueblesColonos extends \yii\db\ActiveRecord
             'estatus' => 'Estatus',
             'alCorriente' => 'Al Corriente',
             'nombreDelColono' => 'Colono',
+            'numero' => 'Número',
             'idColono' => Yii::t('app', 'idColono'),
             'idInmueble' => Yii::t('app', 'idInmueble'),
             'idUsuario' => 'Id Usuario',

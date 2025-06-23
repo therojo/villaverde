@@ -799,3 +799,1067 @@ Array
         )
 
 )
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [data] => <option value='0'>-</option><option value='1'>Amarantos 217</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [data] => <option value='0'>-</option><option value='1'>Amarantos 217</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [data] => <option value='0'>-</option><option value='1'>Amarantos 217</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [data] => <option value='0'>-</option><option value='1'>Amarantos 217</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [data] => <option value='0'>-</option><option value='1'>Amarantos 217</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [data] => <option value='0'>-</option><option value='1'>Amarantos 217</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [data] => <option value='0'>-</option><option value='1'>Amarantos 217</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [data] => <option value='0'>-</option><option value='1'>Amarantos 217</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [data] => <option value='0'>-</option><option value='1'>Amarantos 217</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [data] => <option value='0'>-</option><option value='1'>Amarantos 217</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [data] => <option value='0'>-</option><option value='1'>Amarantos 217</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [data] => <option value='0'>-</option><option value='1'>Amarantos 217</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [text] => Genaro Mendez 
+                    [data] => <option value='0'>-</option><option value='6'>Oyamel 25</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [text] => Genaro Mendez 
+                    [data] => <option value='0'>-</option><option value='6'>Oyamel 25</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [text] => Genaro Mendez 
+                    [data] => <option value='0'>-</option><option value='6'>Oyamel 25</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [text] => Genaro Mendez 
+                    [data] => <option value='0'>-</option><option value='6'>Oyamel 25</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [text] => Genaro Mendez 
+                    [data] => <option value='0'>-</option><option value='6'>Oyamel 25</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [text] => Genaro Mendez 
+                    [data] => <option value='0'>-</option><option value='6'>Oyamel 25</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [text] => Genaro Mendez 
+                    [data] => <option value='0'>-</option><option value='6'>Oyamel 25</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [text] => Genaro Mendez 
+                    [data] => <option value='0'>-</option><option value='6'>Oyamel 25</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [text] => Genaro Mendez 
+                    [data] => <option value='0'>-</option><option value='6'>Oyamel 25</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [data] => <option value='0'>-</option><option value='1'>Amarantos 217</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [data] => <option value='0'>-</option><option value='1'>Amarantos 217</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [data] => <option value='0'>-</option><option value='1'>Amarantos 217</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3
+                    [text] => Manuel Sanchez Palacios
+                    [data] => <option value='0'>-</option><option value='5'>Jarales 123</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3
+                    [text] => Manuel Sanchez Palacios
+                    [data] => <option value='0'>-</option><option value='5'>Jarales 123</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3
+                    [text] => Manuel Sanchez Palacios
+                    [data] => <option value='0'>-</option><option value='5'>Jarales 123</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [data] => <option value='0'>-</option><option value='1'>Amarantos 217</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [data] => <option value='0'>-</option><option value='1'>Amarantos 217</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [data] => <option value='0'>-</option><option value='1'>Amarantos 217</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [text] => Genaro Mendez 
+                    [data] => <option value='0'>-</option><option value='6'>Oyamel 25</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [text] => Genaro Mendez 
+                    [data] => <option value='0'>-</option><option value='6'>Oyamel 25</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [text] => Genaro Mendez 
+                    [data] => <option value='0'>-</option><option value='6'>Oyamel 25</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 4
+                    [text] => Don Rodo Garcia Renteria
+                    [data] => <option value='0'>-</option><option value='2'>Jarales 105</option><option value='3'>Tule 1</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3
+                    [text] => Manuel Sanchez Palacios
+                    [data] => <option value='0'>-</option><option value='5'>Jarales 123</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3
+                    [text] => Manuel Sanchez Palacios
+                    [data] => <option value='0'>-</option><option value='5'>Jarales 123</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3
+                    [text] => Manuel Sanchez Palacios
+                    [data] => <option value='0'>-</option><option value='5'>Jarales 123</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [text] => Genaro Mendez 
+                    [data] => <option value='0'>-</option><option value='6'>Oyamel 25</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [text] => Genaro Mendez 
+                    [data] => <option value='0'>-</option><option value='6'>Oyamel 25</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [text] => Genaro Mendez 
+                    [data] => <option value='0'>-</option><option value='6'>Oyamel 25</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [text] => Genaro Mendez 
+                    [data] => <option value='0'>-</option><option value='6'>Oyamel 25</option>
+                )
+
+        )
+
+)

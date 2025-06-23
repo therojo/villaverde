@@ -5,9 +5,12 @@ namespace app\controllers;
 use Yii;
 use app\models\Chips;
 use app\models\ChipsSearch;
+use app\models\Colonos;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use app\components\Alertas;
+use app\models\InmueblesColonos;
 
 /**
  * ChipsController implements the CRUD actions for Chips model.
@@ -55,13 +58,24 @@ class ChipsController extends Controller
     public function actionCreate()
     {
         $model = new Chips();
+        $model->estatus=Chips::_ACTIVO;
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
+        if ($model->load(Yii::$app->request->post()) && $model->validate()) {
+            
+            $model->save();
+
+            $mensaje="Se registro el chip ".$model->numero;
+
+            Alertas::setFlash("success", "create", $mensaje);
+
+            return $this->redirect(
+                ['index']
+            );
         }
 
         return $this->render('create', [
             'model' => $model,
+            'arrColonos' => []
         ]);
     }
 
@@ -75,13 +89,26 @@ class ChipsController extends Controller
     public function actionUpdate($id)
     {
         $model = $this->findModel($id);
+        $model->idColono= $model->idInmuebleColono0->idColono;
+        $model->idInmuebleColono= $model->idInmuebleColono;
+
+        $arrColonos=(new Colonos())->listaUnico($model->idInmuebleColono0->idColono);
+        $arrInmueblesColono=(new InmueblesColonos())->listaColono($model->idInmuebleColono0->idColono);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
+            
+            $colono =(new Colonos())->getFullName($model->idInmuebleColono0->idColono0->id);
+
+            $mensaje="Se actualizo el chip de ".$colono;
+
+            Alertas::setFlash("success", "update", $mensaje);
+            return $this->redirect(['index']);
         }
 
         return $this->render('update', [
             'model' => $model,
+            'arrColonos' => $arrColonos,
+            'arrInmueblesColono' =>$arrInmueblesColono
         ]);
     }
 

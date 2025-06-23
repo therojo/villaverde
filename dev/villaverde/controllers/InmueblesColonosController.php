@@ -115,12 +115,14 @@ class InmueblesColonosController extends Controller
                     echo '<pre>'.print_r($model->getErrors(), true).'</pre>';
                     die();
                 }
+
                 $inmueble = $model->idInmueble0;
                 $inmueble->asignado="si";
                 $inmueble->save();
                 
                 $transaction->commit();
                 Alertas::setFlash("success", "create");
+
             } catch (\Exception $e) {
                 Alertas::setFlash("error", "create");
                 $transaction->rollBack();
@@ -128,9 +130,8 @@ class InmueblesColonosController extends Controller
             } catch (\Throwable $e) {
                 $transaction->rollBack();
             }
-            
 
-            return $this->redirect(['view', 'id' => $model->id]);
+            return $this->redirect(['index', 'idColono' => $model->idColono]);
         }
 
         return $this->render(

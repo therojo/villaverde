@@ -1,17 +1,40 @@
 <?php
 
+use kartik\helpers\Html;
 /* @var $this yii\web\View */
 
 $this->title = 'Administración Villa Verde 2025';
+
 ?>
 <div class="site-index">
 
     <div class="jumbotron">
-        <h1>Congratulations!</h1>
+        
+        <!-- <h1>Congratulations!</h1> -->
+        
+        <p class="lead">Seleccione una opcion del menu izquierdo o inferior</p>
+        
 
-        <p class="lead">Seleccione una opcion del menu izquierdo</p>
+        <p>
+            <?= Html::a(
+                '<span class="fa fa-users"> Colonos</span> ',
+                ['colonos/index'],
+                ['class' => 'btn btn-primary']
+            ) ?> 
 
-        <p><a class="btn btn-lg btn-success" href="http://www.google.com">Pagos</a></p>
+            <?= Html::a(
+                '<span class="fa fa-dollar-sign"> Pagos</span> ',
+                ['pagos/index'],
+                ['class' => 'btn btn-success']
+            ) ?> 
+
+             <?= Html::a(
+                '<span class="fa fa-car"> Chips </span> ',
+                ['chips/index'],
+                ['class' => 'btn btn-primary']
+            ) ?>
+        </p>
+        
     </div>
 
     <div class="body-content">

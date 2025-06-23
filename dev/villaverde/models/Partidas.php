@@ -18,7 +18,6 @@ use yii\helpers\ArrayHelper;
 class Partidas extends \yii\db\ActiveRecord
 {
 
-
     /**
      * {@inheritdoc}
      */

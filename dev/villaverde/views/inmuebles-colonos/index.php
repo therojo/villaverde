@@ -91,7 +91,7 @@ $gridColumns = [
 
         'filterInputOptions' => ['placeholder' => 'Seleccione...'],
     ],
-    [
+    /*[
         'class' => 'yii\grid\ActionColumn',
         'header' => Html::a(
             '<i class="glyphicon glyphicon-plus"></i> &nbsp;Nuevo',
@@ -116,7 +116,7 @@ $gridColumns = [
                 }
             },
         ]
-    ]
+    ] */
 ];
 ?>
 

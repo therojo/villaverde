@@ -17,21 +17,25 @@
             
         ];
         $menuItems[] = [
-            'label' => 'Pagos', 'icon' => 'piggy-bank', 'url' => ['/pagos'],
+            'label' => 'Cuotas', 'icon' => 'piggy-bank', 'url' => ['/pagos'],
             'visible' => !Yii::$app->user->isGuest
         ];
         $menuItems[] = [
-            'label' => 'Inmuebles', 'icon' => 'home', 'url' => ['/inmuebles'],
+            'label' => 'Egresos', 'icon' => 'dollar-sign', 'url' => ['/egresos'],
+            'visible' => !Yii::$app->user->isGuest
+        ];
+        $menuItems[] = [
+            'label' => 'Domicilios', 'icon' => 'home', 'url' => ['/inmuebles'],
             'visible' => !Yii::$app->user->isGuest
         ];
         $menuItems[] = [
             'label' => 'Chips', 'icon' => 'car', 'url' => ['/chips'],
             'visible' => !Yii::$app->user->isGuest
         ];
-        $menuItems[] = [
-            'label' => 'Domicilios', 'icon' => 'building', 'url' => ['/inmueble-colonos'],
-            'visible' => !Yii::$app->user->isGuest
-        ];
+        //$menuItems[] = [
+        //    'label' => 'Domicilios', 'icon' => 'building', 'url' => ['/inmuebles-colonos'],
+        //    'visible' => !Yii::$app->user->isGuest
+        //];
 
         $menuItems[] = [
             'label' => 'Bloques', 'icon' => 'book', 'url' => ['/talones'],

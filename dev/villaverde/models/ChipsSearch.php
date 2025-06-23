@@ -22,7 +22,8 @@ class ChipsSearch extends Chips
             [
                 [
                     'numero', 'estatus', 'placas', 'color',
-                    'createdAt', 'observaciones'
+                    'createdAt', 'observaciones',
+                    'idColono'
                 ],
                 'safe'
             ],
@@ -47,7 +48,9 @@ class ChipsSearch extends Chips
      */
     public function search($params)
     {
-        $query = Chips::find();
+        $query = Chips::find()->joinWith('idInmuebleColono0.idColono0')->orderBy(
+            'Chips.numero'
+        );
 
         // add conditions that should always apply here
 
@@ -75,6 +78,7 @@ class ChipsSearch extends Chips
             ->andFilterWhere(['like', 'estatus', $this->estatus])
             ->andFilterWhere(['like', 'placas', $this->placas])
             ->andFilterWhere(['like', 'color', $this->color])
+            ->andFilterWhere(['like', 'Colonos.nombre', $this->idColono])
             ->andFilterWhere(['like', 'observaciones', $this->observaciones]);
 
         return $dataProvider;

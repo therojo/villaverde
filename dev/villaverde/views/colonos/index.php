@@ -56,14 +56,13 @@ $this->params['breadcrumbs'][] = ['label' => 'Nuevo', 'url' => ['create']];
                 return ucfirst($model->estatus);
             }
         ],
-
         [
             'class' => 'yii\grid\ActionColumn',
             'header' => Html::a(
                 '<i class="glyphicon glyphicon-plus"></i> &nbsp;Nuevo',
                 ['create']
             ),
-            'template' => '{update}{inmuebles}{chips}{crearUsuario}',
+            'template' => '{update}{inmuebles}{chips}',
             'buttons' => [
                 'update' => function ($url, $model, $key) {
                     return Html::a(

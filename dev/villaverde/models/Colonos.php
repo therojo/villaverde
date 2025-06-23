@@ -97,6 +97,20 @@ class Colonos extends \yii\db\ActiveRecord
         return $arr;
     }
 
+    public function listaUnico($idColono){
+        $arr = ArrayHelper::map(
+            Colonos::find()
+            ->where(['id'=>$idColono])
+            ->select(['id', 'concat(nombre," ", apellido1," ", apellido2) nombre'])
+            ->orderBy('nombre')
+            ->all(),
+            'id',
+            'nombre'
+        );
+
+        return $arr;
+    }
+
     /**
     * Obtendremos la lista d ids de colono que no tienen usuario creado
     * @author Rojo <guillermo.rojo@sazacatecas.gob.mx>

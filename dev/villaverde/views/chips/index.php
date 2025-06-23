@@ -3,6 +3,7 @@
 use app\models\Chips;
 use yii\helpers\Html;
 use yii\grid\GridView;
+use app\models\Colonos;
 
 /* @var $this yii\web\View */
 /* @var $searchModel app\models\UsuariosSearch */
@@ -26,10 +27,13 @@ $this->params['breadcrumbs'][] = $this->title;
                         //['class' => 'yii\grid\SerialColumn'],
                         //'id',
                         'numero',
-                        'fechaRegistro',
-                        'placas',
-                        'modelo',
-                        'color',
+                        [
+                            'attribute'=> 'idColono',
+                            'value'=> function($model){
+                                $colono =(new Colonos())->getFullName($model->idInmuebleColono0->idColono0->id);
+                                return $colono;
+                            }
+                        ],
                         [
                             'attribute'=> 'idInmuebleColono',
                             'header'=>'Domicilio',
@@ -37,7 +41,22 @@ $this->params['breadcrumbs'][] = $this->title;
                                 return $model->idInmuebleColono0->idInmueble0->fullAddress();
                             }
                         ],
-                        'estatus',
+                        [
+                            'attribute'=> 'createdAt',
+                            'value'=> function($model){
+                                return $model->createdAt;
+                            }
+                        ],                        
+                        'placas',
+                        'modelo',
+                        'color',
+                        
+                        [
+                            'attribute'=> 'estatus',
+                            'value'=> function($model){
+                                return ucfirst($model->estatus);
+                            }
+                        ],
                         [
                             'class' => 'yii\grid\ActionColumn',
                             'header' => Html::a(
@@ -53,6 +72,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                             '<span class="glyphicon glyphicon-pencil"></span> ',
                                             [
                                                 'update',
+                                                'id'=>$model->id
                                             ],
                                             [
                                                 'title' => 'Actualizar',

@@ -18,7 +18,7 @@ use Yii;
  * @property int $idInmuebleColono
  *
  * @property Autos $auto
- * @property InmueblesColonos $inmuebleColono
+ * @property InmueblesColonos $inmuebleColono0
  */
 class Chips extends \yii\db\ActiveRecord
 {
@@ -72,10 +72,10 @@ class Chips extends \yii\db\ActiveRecord
             'modelo' => 'Modelo',
             'color' => 'Color',
             'observaciones' => 'Observaciones',
-            'createdAt' => 'Fecha Registro',
+            'createdAt' => 'Fecha',
             'idInmueble' => 'Inmueble',
             'idCalle' => 'Calle',
-            'idColono' => 'idColono',
+            'idColono' => 'Colono',
             'idInmuebleColono' => Yii::t('app', 'idInmuebleColono')
         ];
     }
@@ -83,7 +83,7 @@ class Chips extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getInmuebleColono()
+    public function getIdInmuebleColono0()
     {
         return $this->hasOne(InmueblesColonos::className(), ['id' => 'idInmuebleColono']);
     }

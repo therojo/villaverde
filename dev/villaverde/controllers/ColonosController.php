@@ -8,7 +8,7 @@ use app\models\ColonosSearch;
 
 use app\models\InmueblesColonos;
 use app\models\InmueblesColonosSearch;
-
+use app\components\Alertas;
 use app\models\Calles;
 use app\models\Inmuebles;
 use yii\web\Controller;
@@ -83,14 +83,10 @@ class ColonosController extends Controller
             
             if($model->validate()){
                 $model->save();
-                    return $this->redirect(
-                    ['index']
-                );
-            } else {
-                echo "<pre>".print_r($model->getErrors(), true)."</pre>";
-                die();
-            }
-            
+
+                Alertas::setFlash("success", "create");
+                return $this->redirect(['index']);
+            }            
         }
 
         return $this->render(
