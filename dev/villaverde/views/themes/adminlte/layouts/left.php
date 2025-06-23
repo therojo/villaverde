@@ -43,6 +43,22 @@
         ];
 
         $menuItems[]=[
+                    'label' => 'Bloqueos',
+                    'icon' => 'cut',
+                    'url' => ['reportes/bloqueos'],
+                    'visible' => !Yii::$app->user->isGuest
+                    // 'visible'=> Yii::$app->session['tipo'] == Personas::_DIRECTOR  
+        ];
+
+        $menuItems[]=[
+          'label' => 'Por Bloquear',
+          'icon' => 'cut',
+          'url' => ['reportes/bloqueos-v1'],
+          'visible' => !Yii::$app->user->isGuest
+          // 'visible'=> Yii::$app->session['tipo'] == Personas::_DIRECTOR  
+        ];
+
+        $menuItems[]=[
             'label' => 'Reportes',
             'icon' => 'tachometer-alt',
             'badge' => '<span class="right fs-6 badge badge-success">Oficios</span>',                                        

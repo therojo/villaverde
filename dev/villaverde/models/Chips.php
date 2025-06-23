@@ -3,6 +3,7 @@
 namespace app\models;
 
 use Yii;
+use yii\data\ActiveDataProvider;
 
 /**
  * This is the model class for table "Chips".
@@ -78,6 +79,39 @@ class Chips extends \yii\db\ActiveRecord
             'idColono' => 'Colono',
             'idInmuebleColono' => Yii::t('app', 'idInmuebleColono')
         ];
+    }
+
+    public function listaPorInmueble($idInmuebleColono){
+        
+        $sql="select  group_concat(numero) as chips
+        from Chips 
+        where idInmuebleColono = ".$idInmuebleColono."
+        order by numero
+        ";
+        
+        $rows= Yii::$app->db->createCommand($sql)->queryScalar();
+
+        return $rows;
+    }
+
+
+    /**
+     * Lista de inmuebles con chips a bloquear
+     */
+    public static function listaPorBloquear($lista) {
+        $dataProvider = new ActiveDataProvider(
+            [
+                'query' => Chips::find()->where(
+                    [
+                        'id' => $lista,
+                    ]
+                )->orderBy('id'), 'pagination' => [
+                    'pageSize' => 50,
+                ],
+            ]
+        );
+
+        return $dataProvider;
     }
 
     /**

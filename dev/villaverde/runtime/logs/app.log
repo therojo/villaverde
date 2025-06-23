@@ -27134,3 +27134,1159 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1750646137.3611
     'REQUEST_TIME' => 1750646137
 ]
+2025-06-23 17:07:43 [127.0.0.1][2][oimdpuqktnvrr1rgbemblk8icl][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: reportes/bloqueo in /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Controller.php:155
+Stack trace:
+#0 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction()
+#1 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#2 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#3 /var/www/html/villaverde/dev/villaverde/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /var/www/html/villaverde/dev/villaverde/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2025-06-23 17:07:43 [127.0.0.1][2][oimdpuqktnvrr1rgbemblk8icl][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b543c87bd545990f634bbe9a97a1284e7ff7c4dc6d167706c6b3862f71f5e055a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"c3H0IuoHHOarh_uURNXwkfUttKQA8Tul\";}'
+    'PHPSESSID' => 'oimdpuqktnvrr1rgbemblk8icl'
+    '_identity' => '7d518af11be80b988940546eafdf9313398e2ba9111ab4e9e8f4456a0301a3cfa:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[2,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'idUsuario' => 2
+    'tipo' => 'admin'
+    'nombreUsuario' => 'Miguel'
+    'idTalon' => 1
+    '__id' => 2
+    '__authKey' => null
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/villaverde/dev/villaverde/web/'
+    'HTTP_COOKIE' => '_csrf=b543c87bd545990f634bbe9a97a1284e7ff7c4dc6d167706c6b3862f71f5e055a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22c3H0IuoHHOarh_uURNXwkfUttKQA8Tul%22%3B%7D; PHPSESSID=oimdpuqktnvrr1rgbemblk8icl; _identity=7d518af11be80b988940546eafdf9313398e2ba9111ab4e9e8f4456a0301a3cfa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B2%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.54 (Debian) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/villaverde/dev/villaverde/web/index.php'
+    'REMOTE_PORT' => '55170'
+    'REDIRECT_URL' => '/villaverde/dev/villaverde/web/reportes/bloqueo'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/villaverde/dev/villaverde/web/reportes/bloqueo'
+    'SCRIPT_NAME' => '/villaverde/dev/villaverde/web/index.php'
+    'PHP_SELF' => '/villaverde/dev/villaverde/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1750698463.3266
+    'REQUEST_TIME' => 1750698463
+]
+2025-06-23 17:56:20 [127.0.0.1][2][qvecugitab3c6epuev7m8r45nj][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: reportes/bloqueo in /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Controller.php:155
+Stack trace:
+#0 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction()
+#1 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#2 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#3 /var/www/html/villaverde/dev/villaverde/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /var/www/html/villaverde/dev/villaverde/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2025-06-23 17:56:20 [127.0.0.1][2][qvecugitab3c6epuev7m8r45nj][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b543c87bd545990f634bbe9a97a1284e7ff7c4dc6d167706c6b3862f71f5e055a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"c3H0IuoHHOarh_uURNXwkfUttKQA8Tul\";}'
+    'PHPSESSID' => 'oimdpuqktnvrr1rgbemblk8icl'
+    '_identity' => '7d518af11be80b988940546eafdf9313398e2ba9111ab4e9e8f4456a0301a3cfa:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[2,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+    '__authKey' => null
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/villaverde/dev/villaverde/web/reportes/bloqueo'
+    'HTTP_COOKIE' => '_csrf=b543c87bd545990f634bbe9a97a1284e7ff7c4dc6d167706c6b3862f71f5e055a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22c3H0IuoHHOarh_uURNXwkfUttKQA8Tul%22%3B%7D; PHPSESSID=oimdpuqktnvrr1rgbemblk8icl; _identity=7d518af11be80b988940546eafdf9313398e2ba9111ab4e9e8f4456a0301a3cfa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B2%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.54 (Debian) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/villaverde/dev/villaverde/web/index.php'
+    'REMOTE_PORT' => '46184'
+    'REDIRECT_URL' => '/villaverde/dev/villaverde/web/reportes/bloqueo'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/villaverde/dev/villaverde/web/reportes/bloqueo'
+    'SCRIPT_NAME' => '/villaverde/dev/villaverde/web/index.php'
+    'PHP_SELF' => '/villaverde/dev/villaverde/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1750701380.167
+    'REQUEST_TIME' => 1750701380
+]
+2025-06-23 17:56:39 [127.0.0.1][2][qvecugitab3c6epuev7m8r45nj][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: reportes/bloqueo in /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Controller.php:155
+Stack trace:
+#0 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction()
+#1 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#2 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#3 /var/www/html/villaverde/dev/villaverde/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /var/www/html/villaverde/dev/villaverde/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2025-06-23 17:56:39 [127.0.0.1][2][qvecugitab3c6epuev7m8r45nj][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b543c87bd545990f634bbe9a97a1284e7ff7c4dc6d167706c6b3862f71f5e055a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"c3H0IuoHHOarh_uURNXwkfUttKQA8Tul\";}'
+    'PHPSESSID' => 'qvecugitab3c6epuev7m8r45nj'
+    '_identity' => '7d518af11be80b988940546eafdf9313398e2ba9111ab4e9e8f4456a0301a3cfa:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[2,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+    '__authKey' => null
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost/villaverde/dev/villaverde/web/reportes/bloqueo'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=b543c87bd545990f634bbe9a97a1284e7ff7c4dc6d167706c6b3862f71f5e055a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22c3H0IuoHHOarh_uURNXwkfUttKQA8Tul%22%3B%7D; PHPSESSID=qvecugitab3c6epuev7m8r45nj; _identity=7d518af11be80b988940546eafdf9313398e2ba9111ab4e9e8f4456a0301a3cfa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B2%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.54 (Debian) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/villaverde/dev/villaverde/web/index.php'
+    'REMOTE_PORT' => '56910'
+    'REDIRECT_URL' => '/villaverde/dev/villaverde/web/reportes/bloqueo'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/villaverde/dev/villaverde/web/reportes/bloqueo'
+    'SCRIPT_NAME' => '/villaverde/dev/villaverde/web/index.php'
+    'PHP_SELF' => '/villaverde/dev/villaverde/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1750701399.2832
+    'REQUEST_TIME' => 1750701399
+]
+2025-06-23 17:56:42 [127.0.0.1][2][qvecugitab3c6epuev7m8r45nj][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: app\models\Reportes::loadDefaultValues() in /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Component.php:312
+Stack trace:
+#0 /var/www/html/villaverde/dev/villaverde/controllers/ReportesController.php(191): yii\base\Component->__call()
+#1 [internal function]: app\controllers\ReportesController->actionBloqueos()
+#2 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#3 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Controller.php(184): yii\base\InlineAction->runWithParams()
+#4 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction()
+#5 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#6 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#7 /var/www/html/villaverde/dev/villaverde/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2025-06-23 17:56:42 [127.0.0.1][2][qvecugitab3c6epuev7m8r45nj][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b543c87bd545990f634bbe9a97a1284e7ff7c4dc6d167706c6b3862f71f5e055a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"c3H0IuoHHOarh_uURNXwkfUttKQA8Tul\";}'
+    'PHPSESSID' => 'qvecugitab3c6epuev7m8r45nj'
+    '_identity' => '7d518af11be80b988940546eafdf9313398e2ba9111ab4e9e8f4456a0301a3cfa:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[2,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+    '__authKey' => null
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/villaverde/dev/villaverde/web/reportes/bloqueo'
+    'HTTP_COOKIE' => '_csrf=b543c87bd545990f634bbe9a97a1284e7ff7c4dc6d167706c6b3862f71f5e055a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22c3H0IuoHHOarh_uURNXwkfUttKQA8Tul%22%3B%7D; PHPSESSID=qvecugitab3c6epuev7m8r45nj; _identity=7d518af11be80b988940546eafdf9313398e2ba9111ab4e9e8f4456a0301a3cfa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B2%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.54 (Debian) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/villaverde/dev/villaverde/web/index.php'
+    'REMOTE_PORT' => '56910'
+    'REDIRECT_URL' => '/villaverde/dev/villaverde/web/reportes/bloqueos'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/villaverde/dev/villaverde/web/reportes/bloqueos'
+    'SCRIPT_NAME' => '/villaverde/dev/villaverde/web/index.php'
+    'PHP_SELF' => '/villaverde/dev/villaverde/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1750701402.0727
+    'REQUEST_TIME' => 1750701402
+]
+2025-06-23 17:57:05 [127.0.0.1][2][qvecugitab3c6epuev7m8r45nj][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Reportes::fecha in /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Component.php:154
+Stack trace:
+#0 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/helpers/BaseHtml.php(2296): yii\base\Component->__get()
+#1 /var/www/html/villaverde/dev/villaverde/vendor/kartik-v/yii2-krajee-base/src/InputWidget.php(133): yii\helpers\BaseHtml::getAttributeValue()
+#2 /var/www/html/villaverde/dev/villaverde/vendor/kartik-v/yii2-krajee-base/src/InputWidget.php(111): kartik\base\InputWidget->initInputWidget()
+#3 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/BaseObject.php(112): kartik\base\InputWidget->init()
+#4 [internal function]: yii\base\BaseObject->__construct()
+#5 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/di/Container.php(425): ReflectionClass->newInstanceArgs()
+#6 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/di/Container.php(176): yii\di\Container->build()
+#7 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/BaseYii.php(371): yii\di\Container->get()
+#8 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Widget.php(146): yii\BaseYii::createObject()
+#9 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/widgets/ActiveField.php(795): yii\base\Widget::widget()
+#10 /var/www/html/villaverde/dev/villaverde/views/reportes/bloqueos.php(33): yii\widgets\ActiveField->widget()
+#11 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(348): require('/var/www/html/v...')
+#12 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile()
+#13 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile()
+#14 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Controller.php(413): yii\base\View->render()
+#15 /var/www/html/villaverde/dev/villaverde/controllers/ReportesController.php(193): yii\base\Controller->render()
+#16 [internal function]: app\controllers\ReportesController->actionBloqueos()
+#17 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#18 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Controller.php(184): yii\base\InlineAction->runWithParams()
+#19 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction()
+#20 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#21 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#22 /var/www/html/villaverde/dev/villaverde/web/index.php(12): yii\base\Application->run()
+#23 {main}
+2025-06-23 17:57:05 [127.0.0.1][2][qvecugitab3c6epuev7m8r45nj][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b543c87bd545990f634bbe9a97a1284e7ff7c4dc6d167706c6b3862f71f5e055a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"c3H0IuoHHOarh_uURNXwkfUttKQA8Tul\";}'
+    'PHPSESSID' => 'qvecugitab3c6epuev7m8r45nj'
+    '_identity' => '7d518af11be80b988940546eafdf9313398e2ba9111ab4e9e8f4456a0301a3cfa:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[2,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+    '__authKey' => null
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost/villaverde/dev/villaverde/web/reportes/bloqueo'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=b543c87bd545990f634bbe9a97a1284e7ff7c4dc6d167706c6b3862f71f5e055a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22c3H0IuoHHOarh_uURNXwkfUttKQA8Tul%22%3B%7D; PHPSESSID=qvecugitab3c6epuev7m8r45nj; _identity=7d518af11be80b988940546eafdf9313398e2ba9111ab4e9e8f4456a0301a3cfa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B2%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.54 (Debian) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/villaverde/dev/villaverde/web/index.php'
+    'REMOTE_PORT' => '33760'
+    'REDIRECT_URL' => '/villaverde/dev/villaverde/web/reportes/bloqueos'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/villaverde/dev/villaverde/web/reportes/bloqueos'
+    'SCRIPT_NAME' => '/villaverde/dev/villaverde/web/index.php'
+    'PHP_SELF' => '/villaverde/dev/villaverde/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1750701425.7901
+    'REQUEST_TIME' => 1750701425
+]
+2025-06-23 19:06:01 [127.0.0.1][2][qvecugitab3c6epuev7m8r45nj][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: reportes/bloqueo in /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Controller.php:155
+Stack trace:
+#0 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction()
+#1 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#2 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#3 /var/www/html/villaverde/dev/villaverde/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /var/www/html/villaverde/dev/villaverde/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2025-06-23 19:06:01 [127.0.0.1][2][qvecugitab3c6epuev7m8r45nj][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b543c87bd545990f634bbe9a97a1284e7ff7c4dc6d167706c6b3862f71f5e055a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"c3H0IuoHHOarh_uURNXwkfUttKQA8Tul\";}'
+    'PHPSESSID' => 'qvecugitab3c6epuev7m8r45nj'
+    '_identity' => '7d518af11be80b988940546eafdf9313398e2ba9111ab4e9e8f4456a0301a3cfa:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[2,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+    '__authKey' => null
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost/villaverde/dev/villaverde/web/reportes/bloqueo'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=b543c87bd545990f634bbe9a97a1284e7ff7c4dc6d167706c6b3862f71f5e055a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22c3H0IuoHHOarh_uURNXwkfUttKQA8Tul%22%3B%7D; PHPSESSID=qvecugitab3c6epuev7m8r45nj; _identity=7d518af11be80b988940546eafdf9313398e2ba9111ab4e9e8f4456a0301a3cfa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B2%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.54 (Debian) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/villaverde/dev/villaverde/web/index.php'
+    'REMOTE_PORT' => '34098'
+    'REDIRECT_URL' => '/villaverde/dev/villaverde/web/reportes/bloqueo'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/villaverde/dev/villaverde/web/reportes/bloqueo'
+    'SCRIPT_NAME' => '/villaverde/dev/villaverde/web/index.php'
+    'PHP_SELF' => '/villaverde/dev/villaverde/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1750705561.0116
+    'REQUEST_TIME' => 1750705561
+]
+2025-06-23 19:09:34 [127.0.0.1][2][qvecugitab3c6epuev7m8r45nj][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: reportes/bloqueo in /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Controller.php:155
+Stack trace:
+#0 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction()
+#1 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#2 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#3 /var/www/html/villaverde/dev/villaverde/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /var/www/html/villaverde/dev/villaverde/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2025-06-23 19:09:34 [127.0.0.1][2][qvecugitab3c6epuev7m8r45nj][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b543c87bd545990f634bbe9a97a1284e7ff7c4dc6d167706c6b3862f71f5e055a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"c3H0IuoHHOarh_uURNXwkfUttKQA8Tul\";}'
+    'PHPSESSID' => 'qvecugitab3c6epuev7m8r45nj'
+    '_identity' => '7d518af11be80b988940546eafdf9313398e2ba9111ab4e9e8f4456a0301a3cfa:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[2,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+    '__authKey' => null
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost/villaverde/dev/villaverde/web/reportes/bloqueo'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=b543c87bd545990f634bbe9a97a1284e7ff7c4dc6d167706c6b3862f71f5e055a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22c3H0IuoHHOarh_uURNXwkfUttKQA8Tul%22%3B%7D; PHPSESSID=qvecugitab3c6epuev7m8r45nj; _identity=7d518af11be80b988940546eafdf9313398e2ba9111ab4e9e8f4456a0301a3cfa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B2%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.54 (Debian) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/villaverde/dev/villaverde/web/index.php'
+    'REMOTE_PORT' => '35550'
+    'REDIRECT_URL' => '/villaverde/dev/villaverde/web/reportes/bloqueo'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/villaverde/dev/villaverde/web/reportes/bloqueo'
+    'SCRIPT_NAME' => '/villaverde/dev/villaverde/web/index.php'
+    'PHP_SELF' => '/villaverde/dev/villaverde/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1750705774.6186
+    'REQUEST_TIME' => 1750705774
+]
+2025-06-23 23:05:07 [127.0.0.1][2][6oup0mcobme6fsjhlcm135k9d1][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: app\models\Pagos::lista() in /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Component.php:312
+Stack trace:
+#0 /var/www/html/villaverde/dev/villaverde/controllers/ReportesController.php(220): yii\base\Component->__call()
+#1 [internal function]: app\controllers\ReportesController->actionBloqueos()
+#2 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#3 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Controller.php(184): yii\base\InlineAction->runWithParams()
+#4 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction()
+#5 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#6 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#7 /var/www/html/villaverde/dev/villaverde/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2025-06-23 23:05:07 [127.0.0.1][2][6oup0mcobme6fsjhlcm135k9d1][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'CPmTCgOgrKy1Rs65zKP9cZaGmadrYbSj3fxtmZ4DR_ZBpvE8N9PV7f02_Iiv8bdc5sHV5DQA45u6rTzP63USug=='
+    'Reportes' => [
+        'mesesParaBloqueo' => '3'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f9a7303f2be5bf3da2b5df81577bdba360497b96c5964d4a4d388b48b06371bca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"I_b64syAHp21cRJ-pGLC_aW8gQQVuvUL\";}'
+    'PHPSESSID' => '6oup0mcobme6fsjhlcm135k9d1'
+    '_identity' => '7d518af11be80b988940546eafdf9313398e2ba9111ab4e9e8f4456a0301a3cfa:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[2,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'idUsuario' => 2
+    'tipo' => 'admin'
+    'nombreUsuario' => 'Miguel'
+    'idTalon' => 1
+    '__id' => 2
+    '__authKey' => null
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost/villaverde/dev/villaverde/web/reportes/bloqueos'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '131'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=f9a7303f2be5bf3da2b5df81577bdba360497b96c5964d4a4d388b48b06371bca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22I_b64syAHp21cRJ-pGLC_aW8gQQVuvUL%22%3B%7D; PHPSESSID=6oup0mcobme6fsjhlcm135k9d1; _identity=7d518af11be80b988940546eafdf9313398e2ba9111ab4e9e8f4456a0301a3cfa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B2%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.54 (Debian) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/villaverde/dev/villaverde/web/index.php'
+    'REMOTE_PORT' => '36708'
+    'REDIRECT_URL' => '/villaverde/dev/villaverde/web/reportes/bloqueos'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/villaverde/dev/villaverde/web/reportes/bloqueos'
+    'SCRIPT_NAME' => '/villaverde/dev/villaverde/web/index.php'
+    'PHP_SELF' => '/villaverde/dev/villaverde/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1750719907.3053
+    'REQUEST_TIME' => 1750719907
+]
+2025-06-23 23:27:53 [127.0.0.1][2][6oup0mcobme6fsjhlcm135k9d1][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: The "dataProvider" property must be set. in /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/widgets/BaseListView.php:118
+Stack trace:
+#0 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/grid/GridView.php(275): yii\widgets\BaseListView->init()
+#1 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/BaseObject.php(112): yii\grid\GridView->init()
+#2 [internal function]: yii\base\BaseObject->__construct()
+#3 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/di/Container.php(425): ReflectionClass->newInstanceArgs()
+#4 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/di/Container.php(176): yii\di\Container->build()
+#5 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/BaseYii.php(371): yii\di\Container->get()
+#6 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Widget.php(146): yii\BaseYii::createObject()
+#7 /var/www/html/villaverde/dev/villaverde/views/reportes/_detalleBloqueos.php(25): yii\base\Widget::widget()
+#8 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(348): require('/var/www/html/v...')
+#9 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile()
+#10 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile()
+#11 /var/www/html/villaverde/dev/villaverde/views/reportes/bloqueos.php(61): yii\base\View->render()
+#12 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(348): require('/var/www/html/v...')
+#13 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile()
+#14 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile()
+#15 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Controller.php(413): yii\base\View->render()
+#16 /var/www/html/villaverde/dev/villaverde/controllers/ReportesController.php(226): yii\base\Controller->render()
+#17 [internal function]: app\controllers\ReportesController->actionBloqueos()
+#18 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#19 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Controller.php(184): yii\base\InlineAction->runWithParams()
+#20 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction()
+#21 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#22 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#23 /var/www/html/villaverde/dev/villaverde/web/index.php(12): yii\base\Application->run()
+#24 {main}
+2025-06-23 23:27:53 [127.0.0.1][2][6oup0mcobme6fsjhlcm135k9d1][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f9a7303f2be5bf3da2b5df81577bdba360497b96c5964d4a4d388b48b06371bca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"I_b64syAHp21cRJ-pGLC_aW8gQQVuvUL\";}'
+    'PHPSESSID' => '6oup0mcobme6fsjhlcm135k9d1'
+    '_identity' => '7d518af11be80b988940546eafdf9313398e2ba9111ab4e9e8f4456a0301a3cfa:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[2,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'idUsuario' => 2
+    'tipo' => 'admin'
+    'nombreUsuario' => 'Miguel'
+    'idTalon' => 1
+    '__id' => 2
+    '__authKey' => null
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost/villaverde/dev/villaverde/web/reportes/bloqueos'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=f9a7303f2be5bf3da2b5df81577bdba360497b96c5964d4a4d388b48b06371bca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22I_b64syAHp21cRJ-pGLC_aW8gQQVuvUL%22%3B%7D; PHPSESSID=6oup0mcobme6fsjhlcm135k9d1; _identity=7d518af11be80b988940546eafdf9313398e2ba9111ab4e9e8f4456a0301a3cfa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B2%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.54 (Debian) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/villaverde/dev/villaverde/web/index.php'
+    'REMOTE_PORT' => '56528'
+    'REDIRECT_URL' => '/villaverde/dev/villaverde/web/reportes/bloqueos'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/villaverde/dev/villaverde/web/reportes/bloqueos'
+    'SCRIPT_NAME' => '/villaverde/dev/villaverde/web/index.php'
+    'PHP_SELF' => '/villaverde/dev/villaverde/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1750721273.6841
+    'REQUEST_TIME' => 1750721273
+]
+2025-06-23 23:28:21 [127.0.0.1][2][6oup0mcobme6fsjhlcm135k9d1][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: The "dataProvider" property must be set. in /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/widgets/BaseListView.php:118
+Stack trace:
+#0 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/grid/GridView.php(275): yii\widgets\BaseListView->init()
+#1 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/BaseObject.php(112): yii\grid\GridView->init()
+#2 [internal function]: yii\base\BaseObject->__construct()
+#3 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/di/Container.php(425): ReflectionClass->newInstanceArgs()
+#4 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/di/Container.php(176): yii\di\Container->build()
+#5 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/BaseYii.php(371): yii\di\Container->get()
+#6 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Widget.php(146): yii\BaseYii::createObject()
+#7 /var/www/html/villaverde/dev/villaverde/views/reportes/_detalleBloqueos.php(25): yii\base\Widget::widget()
+#8 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(348): require('/var/www/html/v...')
+#9 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile()
+#10 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile()
+#11 /var/www/html/villaverde/dev/villaverde/views/reportes/bloqueos.php(61): yii\base\View->render()
+#12 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(348): require('/var/www/html/v...')
+#13 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile()
+#14 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile()
+#15 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Controller.php(413): yii\base\View->render()
+#16 /var/www/html/villaverde/dev/villaverde/controllers/ReportesController.php(226): yii\base\Controller->render()
+#17 [internal function]: app\controllers\ReportesController->actionBloqueos()
+#18 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#19 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Controller.php(184): yii\base\InlineAction->runWithParams()
+#20 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction()
+#21 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#22 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#23 /var/www/html/villaverde/dev/villaverde/web/index.php(12): yii\base\Application->run()
+#24 {main}
+2025-06-23 23:28:21 [127.0.0.1][2][6oup0mcobme6fsjhlcm135k9d1][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f9a7303f2be5bf3da2b5df81577bdba360497b96c5964d4a4d388b48b06371bca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"I_b64syAHp21cRJ-pGLC_aW8gQQVuvUL\";}'
+    'PHPSESSID' => '6oup0mcobme6fsjhlcm135k9d1'
+    '_identity' => '7d518af11be80b988940546eafdf9313398e2ba9111ab4e9e8f4456a0301a3cfa:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[2,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'idUsuario' => 2
+    'tipo' => 'admin'
+    'nombreUsuario' => 'Miguel'
+    'idTalon' => 1
+    '__id' => 2
+    '__authKey' => null
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/villaverde/dev/villaverde/web/'
+    'HTTP_COOKIE' => '_csrf=f9a7303f2be5bf3da2b5df81577bdba360497b96c5964d4a4d388b48b06371bca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22I_b64syAHp21cRJ-pGLC_aW8gQQVuvUL%22%3B%7D; PHPSESSID=6oup0mcobme6fsjhlcm135k9d1; _identity=7d518af11be80b988940546eafdf9313398e2ba9111ab4e9e8f4456a0301a3cfa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B2%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.54 (Debian) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/villaverde/dev/villaverde/web/index.php'
+    'REMOTE_PORT' => '35272'
+    'REDIRECT_URL' => '/villaverde/dev/villaverde/web/reportes/bloqueos'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/villaverde/dev/villaverde/web/reportes/bloqueos'
+    'SCRIPT_NAME' => '/villaverde/dev/villaverde/web/index.php'
+    'PHP_SELF' => '/villaverde/dev/villaverde/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1750721301.4809
+    'REQUEST_TIME' => 1750721301
+]
+2025-06-23 23:29:04 [127.0.0.1][2][6oup0mcobme6fsjhlcm135k9d1][error][Error] Error: Call to a member function getCount() on array in /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/widgets/BaseListView.php:190
+Stack trace:
+#0 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/widgets/BaseListView.php(158): yii\widgets\BaseListView->renderSummary()
+#1 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/grid/GridView.php(326): yii\widgets\BaseListView->renderSection()
+#2 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/widgets/BaseListView.php(135): yii\grid\GridView->renderSection()
+#3 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}()
+#4 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/widgets/BaseListView.php(138): preg_replace_callback()
+#5 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/grid/GridView.php(301): yii\widgets\BaseListView->run()
+#6 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Widget.php(149): yii\grid\GridView->run()
+#7 /var/www/html/villaverde/dev/villaverde/views/reportes/_detalleBloqueos.php(25): yii\base\Widget::widget()
+#8 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(348): require('/var/www/html/v...')
+#9 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile()
+#10 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile()
+#11 /var/www/html/villaverde/dev/villaverde/views/reportes/bloqueos.php(61): yii\base\View->render()
+#12 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(348): require('/var/www/html/v...')
+#13 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile()
+#14 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile()
+#15 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Controller.php(413): yii\base\View->render()
+#16 /var/www/html/villaverde/dev/villaverde/controllers/ReportesController.php(226): yii\base\Controller->render()
+#17 [internal function]: app\controllers\ReportesController->actionBloqueos()
+#18 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#19 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Controller.php(184): yii\base\InlineAction->runWithParams()
+#20 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction()
+#21 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#22 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#23 /var/www/html/villaverde/dev/villaverde/web/index.php(12): yii\base\Application->run()
+#24 {main}
+2025-06-23 23:29:04 [127.0.0.1][2][6oup0mcobme6fsjhlcm135k9d1][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f9a7303f2be5bf3da2b5df81577bdba360497b96c5964d4a4d388b48b06371bca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"I_b64syAHp21cRJ-pGLC_aW8gQQVuvUL\";}'
+    'PHPSESSID' => '6oup0mcobme6fsjhlcm135k9d1'
+    '_identity' => '7d518af11be80b988940546eafdf9313398e2ba9111ab4e9e8f4456a0301a3cfa:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[2,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'idUsuario' => 2
+    'tipo' => 'admin'
+    'nombreUsuario' => 'Miguel'
+    'idTalon' => 1
+    '__id' => 2
+    '__authKey' => null
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost/villaverde/dev/villaverde/web/'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=f9a7303f2be5bf3da2b5df81577bdba360497b96c5964d4a4d388b48b06371bca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22I_b64syAHp21cRJ-pGLC_aW8gQQVuvUL%22%3B%7D; PHPSESSID=6oup0mcobme6fsjhlcm135k9d1; _identity=7d518af11be80b988940546eafdf9313398e2ba9111ab4e9e8f4456a0301a3cfa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B2%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.54 (Debian) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/villaverde/dev/villaverde/web/index.php'
+    'REMOTE_PORT' => '54202'
+    'REDIRECT_URL' => '/villaverde/dev/villaverde/web/reportes/bloqueos'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/villaverde/dev/villaverde/web/reportes/bloqueos'
+    'SCRIPT_NAME' => '/villaverde/dev/villaverde/web/index.php'
+    'PHP_SELF' => '/villaverde/dev/villaverde/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1750721344.6421
+    'REQUEST_TIME' => 1750721344
+]
+2025-06-23 23:37:08 [127.0.0.1][2][6oup0mcobme6fsjhlcm135k9d1][error][Error] Error: Class 'getFullName' not found in /var/www/html/villaverde/dev/villaverde/views/reportes/_detalleBloqueos.php:32
+Stack trace:
+#0 [internal function]: yii\base\View->{closure}()
+#1 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/grid/DataColumn.php(252): call_user_func()
+#2 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/grid/DataColumn.php(266): yii\grid\DataColumn->getDataCellValue()
+#3 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/grid/Column.php(111): yii\grid\DataColumn->renderDataCellContent()
+#4 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/grid/GridView.php(525): yii\grid\Column->renderDataCell()
+#5 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/grid/GridView.php(494): yii\grid\GridView->renderTableRow()
+#6 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/grid/GridView.php(358): yii\grid\GridView->renderTableBody()
+#7 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/widgets/BaseListView.php(160): yii\grid\GridView->renderItems()
+#8 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/grid/GridView.php(326): yii\widgets\BaseListView->renderSection()
+#9 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/widgets/BaseListView.php(135): yii\grid\GridView->renderSection()
+#10 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}()
+#11 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/widgets/BaseListView.php(138): preg_replace_callback()
+#12 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/grid/GridView.php(301): yii\widgets\BaseListView->run()
+#13 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Widget.php(149): yii\grid\GridView->run()
+#14 /var/www/html/villaverde/dev/villaverde/views/reportes/_detalleBloqueos.php(40): yii\base\Widget::widget()
+#15 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(348): require('/var/www/html/v...')
+#16 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile()
+#17 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile()
+#18 /var/www/html/villaverde/dev/villaverde/views/reportes/bloqueos.php(61): yii\base\View->render()
+#19 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(348): require('/var/www/html/v...')
+#20 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile()
+#21 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile()
+#22 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Controller.php(413): yii\base\View->render()
+#23 /var/www/html/villaverde/dev/villaverde/controllers/ReportesController.php(226): yii\base\Controller->render()
+#24 [internal function]: app\controllers\ReportesController->actionBloqueos()
+#25 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#26 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Controller.php(184): yii\base\InlineAction->runWithParams()
+#27 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction()
+#28 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#29 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#30 /var/www/html/villaverde/dev/villaverde/web/index.php(12): yii\base\Application->run()
+#31 {main}
+2025-06-23 23:37:08 [127.0.0.1][2][6oup0mcobme6fsjhlcm135k9d1][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'vlvIj3hJkGXXN-vDKbsckhKPfT8Ts2kqZl1M0trybQr3BKq5TDrpJJ9H2fJK6Va_YsgxfEzSPhIBDB2Er4Q4Rg=='
+    'Reportes' => [
+        'mesesParaBloqueo' => '3'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f9a7303f2be5bf3da2b5df81577bdba360497b96c5964d4a4d388b48b06371bca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"I_b64syAHp21cRJ-pGLC_aW8gQQVuvUL\";}'
+    'PHPSESSID' => '6oup0mcobme6fsjhlcm135k9d1'
+    '_identity' => '7d518af11be80b988940546eafdf9313398e2ba9111ab4e9e8f4456a0301a3cfa:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[2,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'idUsuario' => 2
+    'tipo' => 'admin'
+    'nombreUsuario' => 'Miguel'
+    'idTalon' => 1
+    '__id' => 2
+    '__authKey' => null
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost/villaverde/dev/villaverde/web/reportes/bloqueos'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '131'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=f9a7303f2be5bf3da2b5df81577bdba360497b96c5964d4a4d388b48b06371bca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22I_b64syAHp21cRJ-pGLC_aW8gQQVuvUL%22%3B%7D; PHPSESSID=6oup0mcobme6fsjhlcm135k9d1; _identity=7d518af11be80b988940546eafdf9313398e2ba9111ab4e9e8f4456a0301a3cfa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B2%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.54 (Debian) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/villaverde/dev/villaverde/web/index.php'
+    'REMOTE_PORT' => '49020'
+    'REDIRECT_URL' => '/villaverde/dev/villaverde/web/reportes/bloqueos'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/villaverde/dev/villaverde/web/reportes/bloqueos'
+    'SCRIPT_NAME' => '/villaverde/dev/villaverde/web/index.php'
+    'PHP_SELF' => '/villaverde/dev/villaverde/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1750721828.1238
+    'REQUEST_TIME' => 1750721828
+]
+2025-06-23 23:37:52 [127.0.0.1][2][6oup0mcobme6fsjhlcm135k9d1][error][ParseError] ParseError: syntax error, unexpected 'del' (T_STRING), expecting ')' in /var/www/html/villaverde/dev/villaverde/views/reportes/_detalleBloqueos.php:40
+Stack trace:
+#0 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile()
+#1 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile()
+#2 /var/www/html/villaverde/dev/villaverde/views/reportes/bloqueos.php(61): yii\base\View->render()
+#3 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(348): require('/var/www/html/v...')
+#4 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile()
+#5 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile()
+#6 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Controller.php(413): yii\base\View->render()
+#7 /var/www/html/villaverde/dev/villaverde/controllers/ReportesController.php(226): yii\base\Controller->render()
+#8 [internal function]: app\controllers\ReportesController->actionBloqueos()
+#9 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#10 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Controller.php(184): yii\base\InlineAction->runWithParams()
+#11 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction()
+#12 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#13 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#14 /var/www/html/villaverde/dev/villaverde/web/index.php(12): yii\base\Application->run()
+#15 {main}
+2025-06-23 23:37:52 [127.0.0.1][2][6oup0mcobme6fsjhlcm135k9d1][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'vlvIj3hJkGXXN-vDKbsckhKPfT8Ts2kqZl1M0trybQr3BKq5TDrpJJ9H2fJK6Va_YsgxfEzSPhIBDB2Er4Q4Rg=='
+    'Reportes' => [
+        'mesesParaBloqueo' => '3'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f9a7303f2be5bf3da2b5df81577bdba360497b96c5964d4a4d388b48b06371bca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"I_b64syAHp21cRJ-pGLC_aW8gQQVuvUL\";}'
+    'PHPSESSID' => '6oup0mcobme6fsjhlcm135k9d1'
+    '_identity' => '7d518af11be80b988940546eafdf9313398e2ba9111ab4e9e8f4456a0301a3cfa:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[2,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'idUsuario' => 2
+    'tipo' => 'admin'
+    'nombreUsuario' => 'Miguel'
+    'idTalon' => 1
+    '__id' => 2
+    '__authKey' => null
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost/villaverde/dev/villaverde/web/reportes/bloqueos'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '131'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=f9a7303f2be5bf3da2b5df81577bdba360497b96c5964d4a4d388b48b06371bca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22I_b64syAHp21cRJ-pGLC_aW8gQQVuvUL%22%3B%7D; PHPSESSID=6oup0mcobme6fsjhlcm135k9d1; _identity=7d518af11be80b988940546eafdf9313398e2ba9111ab4e9e8f4456a0301a3cfa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B2%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.54 (Debian) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/villaverde/dev/villaverde/web/index.php'
+    'REMOTE_PORT' => '52960'
+    'REDIRECT_URL' => '/villaverde/dev/villaverde/web/reportes/bloqueos'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/villaverde/dev/villaverde/web/reportes/bloqueos'
+    'SCRIPT_NAME' => '/villaverde/dev/villaverde/web/index.php'
+    'PHP_SELF' => '/villaverde/dev/villaverde/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1750721872.3306
+    'REQUEST_TIME' => 1750721872
+]
+2025-06-23 23:46:25 [127.0.0.1][2][6oup0mcobme6fsjhlcm135k9d1][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: dataProvider in /var/www/html/villaverde/dev/villaverde/views/reportes/bloqueos.php:67
+Stack trace:
+#0 /var/www/html/villaverde/dev/villaverde/views/reportes/bloqueos.php(67): yii\base\ErrorHandler->handleError()
+#1 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(348): require('/var/www/html/v...')
+#2 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile()
+#3 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile()
+#4 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Controller.php(413): yii\base\View->render()
+#5 /var/www/html/villaverde/dev/villaverde/controllers/ReportesController.php(382): yii\base\Controller->render()
+#6 [internal function]: app\controllers\ReportesController->actionBloqueosXls()
+#7 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#8 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Controller.php(184): yii\base\InlineAction->runWithParams()
+#9 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction()
+#10 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#11 /var/www/html/villaverde/dev/villaverde/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#12 /var/www/html/villaverde/dev/villaverde/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2025-06-23 23:46:25 [127.0.0.1][2][6oup0mcobme6fsjhlcm135k9d1][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f9a7303f2be5bf3da2b5df81577bdba360497b96c5964d4a4d388b48b06371bca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"I_b64syAHp21cRJ-pGLC_aW8gQQVuvUL\";}'
+    'PHPSESSID' => '6oup0mcobme6fsjhlcm135k9d1'
+    '_identity' => '7d518af11be80b988940546eafdf9313398e2ba9111ab4e9e8f4456a0301a3cfa:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[2,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'idUsuario' => 2
+    'tipo' => 'admin'
+    'nombreUsuario' => 'Miguel'
+    'idTalon' => 1
+    '__id' => 2
+    '__authKey' => null
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/villaverde/dev/villaverde/web/reportes/bloqueos'
+    'HTTP_COOKIE' => '_csrf=f9a7303f2be5bf3da2b5df81577bdba360497b96c5964d4a4d388b48b06371bca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22I_b64syAHp21cRJ-pGLC_aW8gQQVuvUL%22%3B%7D; PHPSESSID=6oup0mcobme6fsjhlcm135k9d1; _identity=7d518af11be80b988940546eafdf9313398e2ba9111ab4e9e8f4456a0301a3cfa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B2%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.54 (Debian) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/villaverde/dev/villaverde/web/index.php'
+    'REMOTE_PORT' => '59674'
+    'REDIRECT_URL' => '/villaverde/dev/villaverde/web/reportes/bloqueos-xls'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/villaverde/dev/villaverde/web/reportes/bloqueos-xls'
+    'SCRIPT_NAME' => '/villaverde/dev/villaverde/web/index.php'
+    'PHP_SELF' => '/villaverde/dev/villaverde/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1750722385.7448
+    'REQUEST_TIME' => 1750722385
+]

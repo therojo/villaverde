@@ -227,6 +227,8 @@ class InmueblesColonos extends \yii\db\ActiveRecord
         return $meses;
     }
 
+    
+
     /**
      * @return \yii\db\ActiveQuery
      */
