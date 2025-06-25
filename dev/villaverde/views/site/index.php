@@ -23,7 +23,7 @@ $this->title = 'Administración Villa Verde 2025';
             ) ?> 
 
             <?= Html::a(
-                '<span class="fa fa-dollar-sign"> Pagos</span> ',
+                '<span class="fa fa-dollar-sign"> Cuotas</span> ',
                 ['pagos/index'],
                 ['class' => 'btn btn-success']
             ) ?> 

@@ -28,9 +28,16 @@ $this->params['breadcrumbs'][] = $this->title;
                         //'id',
                         'numero',
                         [
+                            'attribute'=> 'createdAt',
+                            'value'=> function($model){
+                                return $model->createdAt;
+                            }
+                        ],  
+                        [
                             'attribute'=> 'idColono',
                             'value'=> function($model){
                                 $colono =(new Colonos())->getFullName($model->idInmuebleColono0->idColono0->id);
+                                
                                 return $colono;
                             }
                         ],
@@ -42,14 +49,24 @@ $this->params['breadcrumbs'][] = $this->title;
                             }
                         ],
                         [
-                            'attribute'=> 'createdAt',
+                            'attribute'=> 'placas',
                             'value'=> function($model){
-                                return $model->createdAt;
+                                return $model->placas ? $model->placas :"No registrado";
                             }
-                        ],                        
-                        'placas',
-                        'modelo',
-                        'color',
+                        ],               
+                        
+                        [
+                            'attribute'=> 'modelo',
+                            'value'=> function($model){
+                                return $model->modelo ? $model->modelo :"No registrado";
+                            }
+                        ],
+                        [
+                            'attribute'=> 'color',
+                            'value'=> function($model){
+                                return $model->color ? $model->color :"No registrado";
+                            }
+                        ],                       
                         
                         [
                             'attribute'=> 'estatus',

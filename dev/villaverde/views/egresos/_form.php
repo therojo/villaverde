@@ -40,18 +40,10 @@ use kartik\select2\Select2;
                                 ],
                                 'pluginEvents' => []
                             ]
-                        )->label('Fecha de pago');
+                        )->label('Fecha del pago');
                         ?>
                     </div>
             </div><!-- /col -->
-        </div>
-
-        <div class="row">
-            <div class="col-md-4">
-                <div class="form-group">
-                    <?php echo $form->field($model, 'total')->textInput(['maxlength' => true, 'placeholder' => 'Ingrese Numero'])->label('Importe') ?>
-                </div>
-            </div>
         </div>
 
         <div class="row">   
@@ -74,6 +66,14 @@ use kartik\select2\Select2;
             <div class="col-md-4">
                 <div class="form-group">
                     <?php echo $form->field($model, 'descripcion')->textInput(['maxlength' => true, 'placeholder' => 'Ingrese Numero'])->label('Descripción del pago') ?>
+                </div>
+            </div>
+        </div>
+
+         <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <?php echo $form->field($model, 'total')->textInput(['maxlength' => true, 'placeholder' => 'Ingrese Numero'])->label('Importe pagado') ?>
                 </div>
             </div>
         </div>

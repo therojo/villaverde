@@ -26,7 +26,7 @@ use kartik\select2\Select2;
         <div class="row">
             <div class="col-md-4">
                 <div class="form-group">
-                    <?php echo $form->field($model, 'mesesParaBloqueo')->textInput(['maxlength' => true, 'placeholder' => 'Ingrese Número de meses'])->label('Número de Meses para bloqueo') ?>
+                    <?php echo $form->field($model, 'mesesParaBloqueo')->textInput(['maxlength' => true, 'placeholder' => 'Ingrese Número de meses'])->label('Número de Meses para determinar bloqueo') ?>
                 </div>
             </div>
 

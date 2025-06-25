@@ -10,7 +10,7 @@ use app\models\Colonos;
 /* @var $searchModel app\models\ClientesSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Inmuebles';
+$this->title = 'Domicilios';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="row">
@@ -26,7 +26,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 'filterModel' => $searchModel,
                 'columns' => [
                     //['class' => 'yii\grid\SerialColumn'],
-                    'id',
+                    //'id',
                     [
                         'attribute' => 'idCalle',
                         'value' => function ($model) {
@@ -46,7 +46,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     [
                         'attribute'=> 'tipo',
                         'value'=> function($model){
-                            return ucfirst($model->tipo);
+                            return ucfirst($model->displayTipo());
                         }
                     ],
                     'created_at:date',
@@ -62,9 +62,10 @@ $this->params['breadcrumbs'][] = $this->title;
                         'attribute'=> 'asignado',
                         'value'=>function ($model) {
                             return ucfirst($model->asignado);
-                        }
+                        },
+                        'hAlign' => GridView::ALIGN_CENTER,
                     ],
-                    [
+                    /*[
                         'attribute'=> 'idColonoActivo',
                         'header'=> 'Colono / Inquilino',    
                         'value'=> function($model){
@@ -77,14 +78,15 @@ $this->params['breadcrumbs'][] = $this->title;
                                 return "";
                             }
                         }
-                    ],
+                    ],*/
                     [
                         'class' => 'yii\grid\ActionColumn',
                         'header' => Html::a(
                             '<i class="glyphicon glyphicon-plus"></i>&nbsp;&nbsp;&nbsp;Nuevo',
                             ['create']
                         ),
-                        'template' => '{actualizar}{bitacora}{cancelar}',
+                        // 'template' => '{actualizar}{bitacora}{cancelar}',
+                        'template' => '{actualizar}',
                         'buttons' => [
                             'actualizar' => function ($url, $model, $key) {
                                 return Html::a(

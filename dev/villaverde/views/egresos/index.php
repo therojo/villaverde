@@ -16,9 +16,9 @@ $this->title = 'Egresos';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 
-<p class="text-right">
-        <?= Html::a('Nuevo  ', ['create'], ['class' => 'btn btn-success']) ?>
-</p>
+<!-- <p class="text-right">
+    <?php  // Html::a('Nuevo  ', ['create'], ['class' => 'btn btn-success']) ?>
+</p> -->
 
 <div class="row">
   <div class="col-xs-12">
@@ -36,16 +36,18 @@ $this->params['breadcrumbs'][] = $this->title;
 
                         // 'id',
                         'fecha',
-                        'descripcion',
-                        //'createdAt',
                         [
                             'attribute'=> 'idPartida',
                             'value'=> function($model){
                                 return ucfirst($model->idPartida0->nombre);
                             }
                         ],
+                        'descripcion',
+                        //'createdAt',
+                        
                         [
                             'attribute'=> 'idUsuario',
+                            'header'=> 'Registrado por',
                             'value'=> function($model){
                                 return ucfirst($model->idUsuario0->idColono0->nombre);
                             }

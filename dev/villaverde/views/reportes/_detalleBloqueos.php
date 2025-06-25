@@ -43,11 +43,18 @@ use yii\grid\GridView;
             ],
             [
                 'attribute'=> 'idInmuebleColono',
-                'header'=>'Direccion',
+                'header'=>'Dirección',
                 'value'=> function($model){
                     return ucfirst($model->idInmuebleColono0->idInmueble0->numero);
                 }
             ],
+            /*[
+                'attribute'=> 'idAreaReporte',
+                'value'=> function($model){
+                    return $model->idInmuebleColono();
+                }
+            ]*/
+
             /* [
                 'attribute'=> '',
                 'value'=> function($model){

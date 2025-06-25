@@ -1863,3 +1863,115 @@ Array
         )
 
 )
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option><option value='8'>Tule 1</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option><option value='8'>Tule 1</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option><option value='8'>Tule 1</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [data] => <option value='0'>-</option><option value='1'>Amarantos 217</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [data] => <option value='0'>-</option><option value='1'>Amarantos 217</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [text] => Miguel Sanchez Ramirez
+                    [data] => <option value='0'>-</option><option value='1'>Amarantos 217</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option><option value='8'>Tule 1</option>
+                )
+
+        )
+
+)
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [text] => profe Ramirez gallo
+                    [data] => <option value='0'>-</option><option value='4'>Amarantos 225</option><option value='8'>Tule 1</option>
+                )
+
+        )
+
+)

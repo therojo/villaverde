@@ -18,8 +18,8 @@ class InmueblesSearch extends Inmuebles
     public function rules()
     {
         return [
-            [['id', 'numero', 'idCalle', 'idUsuario'], 'integer'],
-            [['numeroInterior', 'created_at', 'observaciones','asignado','tipo'],'safe'],
+            [['id','idUsuario'], 'integer'],
+            [['numeroInterior', 'created_at', 'observaciones','asignado','tipo','idCalle','numero'],'safe'],
         ];
     }
 
@@ -41,7 +41,9 @@ class InmueblesSearch extends Inmuebles
      */
     public function search($params)
     {
-        $query = Inmuebles::find();
+        $query = Inmuebles::find()->joinWith(
+            ['idCalle0']
+        )->orderBy('Calles.nombre, numero');
         //$query->where('asignado="si"');
         
         // add conditions that should always apply here
@@ -63,11 +65,12 @@ class InmueblesSearch extends Inmuebles
             'id' => $this->id,
             'numero' => $this->numero,
             'created_at' => $this->created_at,
-            'idCalle' => $this->idCalle,
             'idUsuario' => $this->idUsuario,
         ]);
 
         $query->andFilterWhere(['like', 'numeroInterior', $this->numeroInterior])
+            ->andFilterWhere(['like', 'Calles.nombre', $this->idCalle])
+            ->andFilterWhere(['like', 'numero', $this->numero])
             ->andFilterWhere(['like', 'observaciones', $this->observaciones]);
 
         return $dataProvider;

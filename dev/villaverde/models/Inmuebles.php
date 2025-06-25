@@ -24,8 +24,14 @@ use Yii;
 class Inmuebles extends \yii\db\ActiveRecord
 {
     
-    const _ASIGNADO='si';
-    const _NOASIGNADO='no';
+    /**
+     * ENUM field values
+     */
+    const _ASIGNADO = 'si';
+    const _NOASIGNADO = 'no';
+    const TIPO_CASA = 'casa';
+    const TIPO_TERRENO = 'terreno';
+    const TIPO_BALDIO = 'baldio';
 
     public $idColonoActivo;
 
@@ -47,10 +53,17 @@ class Inmuebles extends \yii\db\ActiveRecord
             [['numero', 'idCalle', 'idUsuario'], 'integer'],
             [['idColonoActivo'], 'integer'], // Solo para mostrar que colono lo habita
             [['created_at'], 'safe'],
-            [['asignado'], 'string'],
+            ['asignado', 'in', 'range' => array_keys(self::optsAsignado())],
             [['tipo'], 'string'],
             [['numeroInterior'], 'string', 'max' => 45],
             [['observaciones'], 'string', 'max' => 150],
+            // Validamos que no se repitan los domicilios, validar tambien num interno
+            [
+                ['idCalle'],
+                'unique', 
+                'message' => 'Este domicilio ya fue registrado',
+                'targetAttribute' => ['idCalle', 'numero']
+            ],
             [['idCalle'], 'exist', 'skipOnError' => true, 'targetClass' => Calles::className(), 'targetAttribute' => ['idCalle' => 'id']],
             [['idUsuario'], 'exist', 'skipOnError' => true, 'targetClass' => Usuarios::className(), 'targetAttribute' => ['idUsuario' => 'id']],
         ];
@@ -84,8 +97,8 @@ class Inmuebles extends \yii\db\ActiveRecord
         $domicilio=$this->idCalle0->nombre;
         $domicilio.=" ".$this->numero;
 
-        if (isset($this->numeroInterior)) {
-            $domicilio.="( int ".$this->numeroInterior.")";
+        if ($this->numeroInterior <> "") {
+            $domicilio.=" ( int ".$this->numeroInterior.")";
         }
 
         return $domicilio;
@@ -97,6 +110,36 @@ class Inmuebles extends \yii\db\ActiveRecord
     public function getInmueblesColonos()
     {
         return $this->hasMany(InmueblesColonos::className(), ['idInmueble' => 'id']);
+    }
+
+    /**
+     * column asignado ENUM value labels
+     * @return string[]
+     */
+    public static function optsAsignado()
+    {
+        return [
+            self::_ASIGNADO => 'si',
+            self::_NOASIGNADO => 'no',
+        ];
+    }
+
+    /**
+     * column tipo ENUM value labels
+     * @return string[]
+     */
+    public static function optsTipo()
+    {
+        return [
+            self::TIPO_CASA => 'casa',
+            self::TIPO_TERRENO => 'terreno',
+            self::TIPO_BALDIO => 'baldio',
+        ];
+    }
+
+    public function displayTipo()
+    {
+        return self::optsTipo()[$this->tipo];
     }
 
     /**

@@ -11,15 +11,17 @@
             ['label' => 'Login', 'url' => ['/site/login'], 'visible' => Yii::$app->user->isGuest],
         ];
     } else {
-        $menuItems[] = [
-            'label' => 'Colonos', 'icon' => 'users', 'url' => ['/colonos'],
-            'visible' => !Yii::$app->user->isGuest
-            
-        ];
+        
         $menuItems[] = [
             'label' => 'Cuotas', 'icon' => 'piggy-bank', 'url' => ['/pagos'],
             'visible' => !Yii::$app->user->isGuest
         ];
+
+        $menuItems[] = [
+            'label' => 'Colonos', 'icon' => 'users', 'url' => ['/colonos'],
+            'visible' => !Yii::$app->user->isGuest
+        ];
+        
         $menuItems[] = [
             'label' => 'Egresos', 'icon' => 'dollar-sign', 'url' => ['/egresos'],
             'visible' => !Yii::$app->user->isGuest
@@ -37,17 +39,12 @@
         //    'visible' => !Yii::$app->user->isGuest
         //];
 
-        $menuItems[] = [
-            'label' => 'Bloques', 'icon' => 'book', 'url' => ['/talones'],
-            'visible' => !Yii::$app->user->isGuest
-        ];
-
         $menuItems[]=[
-                    'label' => 'Bloqueos',
-                    'icon' => 'cut',
-                    'url' => ['reportes/bloqueos'],
-                    'visible' => !Yii::$app->user->isGuest
-                    // 'visible'=> Yii::$app->session['tipo'] == Personas::_DIRECTOR  
+            'label' => 'Bloqueos',
+            'icon' => 'cut',
+            'url' => ['reportes/bloqueos'],
+            'visible' => !Yii::$app->user->isGuest
+            // 'visible'=> Yii::$app->session['tipo'] == Personas::_DIRECTOR  
         ];
 
         $menuItems[]=[
@@ -57,6 +54,39 @@
           'visible' => !Yii::$app->user->isGuest
           // 'visible'=> Yii::$app->session['tipo'] == Personas::_DIRECTOR  
         ];
+
+         $menuItems[]=[
+            'label' => 'Catalogos',
+            'icon' => 'book',
+            'badge' => '<span class="right fs-6 badge badge-success">Catalogos</span>',
+            'items' => [
+                [
+                    'label' => 'Calles',
+                    'icon' => 'bolt',
+                    'url' => ['calles'],
+                    'visible' => !Yii::$app->user->isGuest
+                    // 'visible'=> Yii::$app->session['tipo'] == Personas::_DIRECTOR  
+                ],
+                $menuItems[] = [
+                    'label' => 'Bloques', 'icon' => 'book', 'url' => ['/talones'],
+                    'visible' => !Yii::$app->user->isGuest
+                ],
+                [
+                    'label' => 'Partidas',
+                    'icon' => 'home',
+                    'url' => ['partidas'],
+                    'visible' => !Yii::$app->user->isGuest
+                    // 'visible'=> Yii::$app->session['tipo'] == Personas::_DIRECTOR  
+                ],
+                [
+                    'label' => 'Usuarios',
+                    'icon' => 'bolt',
+                    'url' => ['usuarios'],
+                    'visible' => !Yii::$app->user->isGuest
+                    // 'visible'=> Yii::$app->session['tipo'] == Personas::_DIRECTOR  
+                ],
+            ]                                                  
+         ];
 
         $menuItems[]=[
             'label' => 'Reportes',
@@ -85,10 +115,6 @@
         //     'visible' => !Yii::$app->user->isGuest
         // ];
         
-        $menuItems[] = [
-            'label' => 'Usuarios', 'icon' => 'user-plus', 'url' => ['/usuarios'],
-            'visible' => !Yii::$app->user->isGuest
-        ];
         $menuItems[] = [
             'label' => 'Cambiar contraseña', 'icon' => 'key', 'url' => ['/usuarios/cambiar'],
             'visible' => !Yii::$app->user->isGuest

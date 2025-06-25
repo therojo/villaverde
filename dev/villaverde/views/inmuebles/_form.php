@@ -24,7 +24,7 @@ use kartik\select2\Select2;
         </div>
 
         <div class="row">   
-            <div class="col-md-8">
+            <div class="col-md-4">
                 <div class="form-group">
                     <?php echo $form->field($model, 'idCalle')->widget(
                         Select2::classname(),
@@ -40,7 +40,7 @@ use kartik\select2\Select2;
         </div>
 
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-4">
                 <div class="form-group">
                     <?php echo $form->field($model, 'numero')->textInput(['maxlength' => true, 'placeholder' => 'Ingrese Numero'])->label('Numero') ?>
                 </div>
@@ -48,14 +48,31 @@ use kartik\select2\Select2;
         </div>
 
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-4">
                 <div class="form-group">
                     <?php echo $form->field($model, 'numeroInterior')->textInput(['maxlength' => true, 'placeholder' => 'Ingrese numero Interior'])->label('Numero Interior') ?>
                 </div>
             </div>
         </div>
+
+        <div class="row">   
+            <div class="col-md-4">
+                <div class="form-group">
+                    <?php echo $form->field($model, 'tipo')->widget(
+                        Select2::classname(),
+                        [
+                            'data' => [ 'casa' => 'Casa', 'terreno' => 'Terreno', 'baldio' => 'Baldio'],
+                            'options' => ['placeholder' => 'Seleccione tipo de inmueble'],
+                            'pluginOptions' => ['allowClear' => true]
+                        ]
+                    )
+                    ?>
+                </div>
+            </div>
+        </div>
+
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-4">
                 <div class="form-group">
                     <?php echo $form->field($model, 'observaciones')->textInput(['maxlength' => true, 'placeholder' => 'Ingrese Observaciones'])->label('Observaciones') ?>
                 </div>
